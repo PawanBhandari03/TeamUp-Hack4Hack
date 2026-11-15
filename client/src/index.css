@@ -51,35 +51,6 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
-    --paper: #12110e;
-    --paper-2: #1b1a15;
-    --card: #1f1d18;
-    --tint: #24221c;
-    --ink: #f3eddf;
-    --ink-2: #c4bcaa;
-    --muted: #a59d8c;
-    --rule: rgb(243 237 223 / 0.14);
-    --rule-strong: rgb(243 237 223 / 0.3);
-    --accent: #8ea8ff;
-    --accent-hover: #b3c4ff;
-    --accent-light: rgb(142 168 255 / 0.14);
-    --accent-border: rgb(142 168 255 / 0.4);
-    --red: #ff8a7a;
-    --red-light: rgb(255 138 122 / 0.12);
-    --red-border: rgb(255 138 122 / 0.4);
-    --green: #6ee7a0;
-    --green-light: rgb(110 231 160 / 0.12);
-    --green-border: rgb(110 231 160 / 0.4);
-    --amber: #fbbf4b;
-    --amber-light: rgb(251 191 75 / 0.12);
-    --amber-border: rgb(251 191 75 / 0.4);
-    --marker: #8a7a1c;
-    --on-accent: #0c1430;
-    color-scheme: dark;
-  }
-}
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -438,9 +409,6 @@ input:disabled { opacity: 0.65; background: var(--paper-2); }
 }
 .toast-error { background: var(--red); border-color: var(--red); color: #fff; box-shadow: 4px 4px 0 var(--ink); }
 .toast-success { background: var(--green); border-color: var(--green); color: #fff; box-shadow: 4px 4px 0 var(--ink); }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .toast-error, :root:not([data-theme='light']) .toast-success { color: #12110e; }
-}
 @media (min-width: 900px) {
   .toasts { left: auto; right: 24px; bottom: 24px; align-items: flex-end; }
 }

@@ -17,6 +17,7 @@ People create teams, invite others with expiring codes, request to join (the lea
 | 👤 **Demo logins** | `demo1@hack4hack.dev` … `demo5@hack4hack.dev`, password `password123` |
 | 📄 **Design doc (1 page)** | [docs/DESIGN.md](docs/DESIGN.md) |
 | 📊 **Load-test report** | [docs/LOADTEST.md](docs/LOADTEST.md) |
+| 🗞️ **Pitch deck (7 slides)** | [docs/TeamUp-pitch-deck.pdf](docs/TeamUp-pitch-deck.pdf) |
 | 🚀 **Deploy guide** | [docs/DEPLOY.md](docs/DEPLOY.md) |
 
 ## Contents
